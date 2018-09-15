@@ -30,7 +30,7 @@ class FilterTest extends TestCase
         $this->filterable = $this->getMockBuilder(FilterableInterface::class)
             ->getMock();
 
-        $this->filterable->method('filter')->willReturn("test");
+        $this->filterable->method('filter')->willReturnSelf();
     }
 
     /**
@@ -60,6 +60,6 @@ class FilterTest extends TestCase
      */
     public function testFilterable()
     {
-        $this->assertSame("test", $this->filter->filter($this->filterable));
+        $this->assertSame($this->filterable, $this->filter->filter($this->filterable));
     }
 }
