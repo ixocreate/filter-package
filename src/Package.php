@@ -1,10 +1,7 @@
 <?php
 /**
- * kiwi-suite/filter (https://github.com/kiwi-suite/filter)
- *
- * @package kiwi-suite/filter
- * @link https://github.com/kiwi-suite/filter
- * @copyright Copyright (c) 2010 - 2018 kiwi suite GmbH
+ * @link https://github.com/ixocreate
+ * @copyright IXOCREATE GmbH
  * @license MIT License
  */
 
@@ -19,7 +16,6 @@ use Ixocreate\Contract\ServiceManager\ServiceManagerInterface;
 
 final class Package implements PackageInterface
 {
-
     /**
      * @param ConfiguratorRegistryInterface $configuratorRegistry
      */
