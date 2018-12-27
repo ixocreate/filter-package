@@ -9,9 +9,9 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuite\Filter;
+namespace Ixocreate\Filter;
 
-use KiwiSuite\Contract\Filter\FilterableInterface;
+use Ixocreate\Contract\Filter\FilterableInterface;
 
 final class Filter
 {

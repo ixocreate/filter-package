@@ -21,13 +21,13 @@
     },
     "autoload": {
         "psr-4": {
-            "KiwiSuite\\Filter\\": "src/"
+            "Ixocreate\\Filter\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KiwiSuiteTest\\Filter\\": "tests/src/",
-            "KiwiSuiteMisc\\Filter\\": "tests/misc/"
+            "IxocreateTest\\Filter\\": "tests/src/",
+            "IxocreateMisc\\Filter\\": "tests/misc/"
         }
     }
 }

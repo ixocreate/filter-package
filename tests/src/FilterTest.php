@@ -9,10 +9,10 @@
  */
 
 declare(strict_types=1);
-namespace KiwiSuiteTest\Validator;
+namespace IxocreateTest\Validator;
 
-use KiwiSuite\Contract\Filter\FilterableInterface;
-use KiwiSuite\Filter\Filter;
+use Ixocreate\Contract\Filter\FilterableInterface;
+use Ixocreate\Filter\Filter;
 use PHPUnit\Framework\TestCase;
 
 class FilterTest extends TestCase
@@ -34,7 +34,7 @@ class FilterTest extends TestCase
     }
 
     /**
-     * @covers \KiwiSuite\Filter\Filter::supports
+     * @covers \Ixocreate\Filter\Filter::supports
      */
     public function testSupports()
     {
@@ -46,7 +46,7 @@ class FilterTest extends TestCase
     }
 
     /**
-     * @covers \KiwiSuite\Filter\Filter::filter
+     * @covers \Ixocreate\Filter\Filter::filter
      */
     public function testFilterException()
     {
@@ -56,7 +56,7 @@ class FilterTest extends TestCase
     }
 
     /**
-     * @covers \KiwiSuite\Filter\Filter::filter
+     * @covers \Ixocreate\Filter\Filter::filter
      */
     public function testFilterable()
     {
