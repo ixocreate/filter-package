@@ -6,7 +6,6 @@
 [![Packagist Pre Release](https://img.shields.io/packagist/vpre/ixocreate/filter.svg)](https://packagist.org/packages/ixocreate/filter)
 [![Packagist](https://img.shields.io/packagist/l/ixocreate/filter.svg)](https://packagist.org/packages/ixocreate/filter)
 
-
 ## Installation
 
 Install the package via composer:
