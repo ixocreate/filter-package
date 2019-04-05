@@ -12,7 +12,8 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.1",
-        "ixocreate/contract": "dev-develop"
+        "ixocreate/application-contract": "dev-develop",
+        "ixocreate/filter-contract": "dev-develop"
     },
     "require-dev": {
         "ixocreate/coding-standard": "^1.0.1",
