@@ -7,10 +7,10 @@
 
 declare(strict_types=1);
 
-namespace IxocreateTest\Validator;
+namespace Ixocreate\Test\Validator;
 
-use Ixocreate\Contract\Filter\FilterableInterface;
-use Ixocreate\Filter\Filter;
+use Ixocreate\Package\Filter\FilterableInterface;
+use Ixocreate\Package\Filter\Filter;
 use PHPUnit\Framework\TestCase;
 
 class FilterTest extends TestCase
@@ -32,7 +32,7 @@ class FilterTest extends TestCase
     }
 
     /**
-     * @covers \Ixocreate\Filter\Filter::supports
+     * @covers \Ixocreate\Package\Filter\Filter::supports
      */
     public function testSupports()
     {
@@ -44,7 +44,7 @@ class FilterTest extends TestCase
     }
 
     /**
-     * @covers \Ixocreate\Filter\Filter::filter
+     * @covers \Ixocreate\Package\Filter\Filter::filter
      */
     public function testFilterException()
     {
@@ -54,7 +54,7 @@ class FilterTest extends TestCase
     }
 
     /**
-     * @covers \Ixocreate\Filter\Filter::filter
+     * @covers \Ixocreate\Package\Filter\Filter::filter
      */
     public function testFilterable()
     {

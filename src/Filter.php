@@ -7,9 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Filter;
-
-use Ixocreate\Contract\Filter\FilterableInterface;
+namespace Ixocreate\Package\Filter;
 
 final class Filter
 {
@@ -28,8 +26,8 @@ final class Filter
 
     /**
      * @param $value
-     * @throws \Exception
      * @return mixed
+     * @throws \Exception
      */
     public function filter($value)
     {

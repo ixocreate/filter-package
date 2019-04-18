@@ -1,6 +1,6 @@
 {
-    "name": "ixocreate/filter",
-    "description": "Filter of IXOCREATE",
+    "name": "ixocreate/filter-package",
+    "description": "IXOCREATE Filter Package",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -12,23 +12,22 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.1",
-        "ixocreate/application-contract": "dev-develop",
-        "ixocreate/filter-contract": "dev-develop"
+        "ixocreate/application": "dev-consolidate"
     },
     "require-dev": {
-        "ixocreate/coding-standard": "^1.0.1",
+        "ixocreate/coding-standard": "^1.0",
         "php-coveralls/php-coveralls": "^2.1",
         "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
-            "Ixocreate\\Filter\\": "src/"
+            "Ixocreate\\Package\\Filter\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "IxocreateTest\\Filter\\": "tests/src/",
-            "IxocreateMisc\\Filter\\": "tests/misc/"
+            "Ixocreate\\Test\\Filter\\": "tests/src/",
+            "Ixocreate\\Misc\\Filter\\": "tests/misc/"
         }
     },
     "scripts": {
