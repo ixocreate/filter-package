@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ixocreate\\Package\\Filter\\": "src/"
+            "Ixocreate\\Filter\\Package\\": "src/"
         }
     },
     "autoload-dev": {

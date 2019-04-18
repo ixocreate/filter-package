@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Package\Filter;
+namespace Ixocreate\Filter\Package;
 
 interface FilterableInterface
 {
