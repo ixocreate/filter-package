@@ -9,10 +9,10 @@ declare(strict_types=1);
 
 namespace Ixocreate\Test\Test;
 
-use Ixocreate\Application\Service\Configurator\ConfiguratorRegistryInterface;
-use Ixocreate\Application\Service\Registry\ServiceRegistryInterface;
+use Ixocreate\Application\ConfiguratorRegistryInterface;
+use Ixocreate\Application\Service\ServiceRegistryInterface;
+use Ixocreate\Filter\Package;
 use Ixocreate\ServiceManager\ServiceManagerInterface;
-use Ixocreate\Filter;
 use PHPUnit\Framework\TestCase;
 
 class PackageTest extends TestCase
