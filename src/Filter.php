@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Ixocreate\Filter\Package;
+namespace Ixocreate\Filter;
 
 final class Filter
 {
