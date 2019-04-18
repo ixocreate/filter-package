@@ -26,8 +26,8 @@ final class Filter
 
     /**
      * @param $value
-     * @return mixed
      * @throws \Exception
+     * @return mixed
      */
     public function filter($value)
     {
