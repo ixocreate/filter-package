@@ -7,12 +7,12 @@
 
 declare(strict_types=1);
 
-namespace IxocreateTest\Test;
+namespace Ixocreate\Test\Test;
 
-use Ixocreate\Contract\Application\ConfiguratorRegistryInterface;
-use Ixocreate\Contract\Application\ServiceRegistryInterface;
-use Ixocreate\Contract\ServiceManager\ServiceManagerInterface;
+use Ixocreate\Application\Configurator\ConfiguratorRegistryInterface;
+use Ixocreate\Application\Service\ServiceRegistryInterface;
 use Ixocreate\Filter\Package;
+use Ixocreate\ServiceManager\ServiceManagerInterface;
 use PHPUnit\Framework\TestCase;
 
 class PackageTest extends TestCase

@@ -7,10 +7,10 @@
 
 declare(strict_types=1);
 
-namespace IxocreateTest\Validator;
+namespace Ixocreate\Test\Validator;
 
-use Ixocreate\Contract\Filter\FilterableInterface;
 use Ixocreate\Filter\Filter;
+use Ixocreate\Filter\FilterableInterface;
 use PHPUnit\Framework\TestCase;
 
 class FilterTest extends TestCase

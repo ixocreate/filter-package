@@ -1,17 +1,17 @@
-# IXOCREATE filter
+# IXOCREATE Filter Package
 
-[![Build Status](https://travis-ci.com/ixocreate/filter.svg?branch=master)](https://travis-ci.com/ixocreate/filter)
-[![Coverage Status](https://coveralls.io/repos/github/ixocreate/filter/badge.svg?branch=develop)](https://coveralls.io/github/ixocreate/filter?branch=develop)
-[![Packagist](https://img.shields.io/packagist/v/ixocreate/filter.svg)](https://packagist.org/packages/ixocreate/filter)
-[![Packagist Pre Release](https://img.shields.io/packagist/vpre/ixocreate/filter.svg)](https://packagist.org/packages/ixocreate/filter)
-[![Packagist](https://img.shields.io/packagist/l/ixocreate/filter.svg)](https://packagist.org/packages/ixocreate/filter)
+[![Build Status](https://travis-ci.com/ixocreate/filter-package.svg?branch=master)](https://travis-ci.com/ixocreate/filter-package)
+[![Coverage Status](https://coveralls.io/repos/github/ixocreate/filter-package/badge.svg?branch=develop)](https://coveralls.io/github/ixocreate/filter-package?branch=develop)
+[![Packagist](https://img.shields.io/packagist/v/ixocreate/filter-package.svg)](https://packagist.org/packages/ixocreate/filter-package)
+[![PHP Version](https://img.shields.io/packagist/php-v/ixocreate/filter-package.svg)](https://packagist.org/packages/ixocreate/filter-package)
+[![License](https://img.shields.io/github/license/ixocreate/filter-package.svg)](LICENSE)
 
 ## Installation
 
 Install the package via composer:
 
 ```sh
-composer require ixocreate/filter
+composer require ixocreate/filter-package
 ```
 
 ## Testing
@@ -20,6 +20,18 @@ composer require ixocreate/filter
 composer install --dev
 phpunit
 ```
+
+## Documentation
+
+Learn more about IXOCREATE by reading its [Documentation](https://ixocreate.github.io/).
+
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Security Vulnerabilities
+
+If you discover security vulnerabilities, please address issues directly to opensource@ixocreate.com via e-mail.
 
 ## License
 

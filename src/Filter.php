@@ -9,8 +9,6 @@ declare(strict_types=1);
 
 namespace Ixocreate\Filter;
 
-use Ixocreate\Contract\Filter\FilterableInterface;
-
 final class Filter
 {
     /**
