@@ -15,7 +15,7 @@
         "ixocreate/application": "^0.1"
     },
     "require-dev": {
-        "ixocreate/coding-standard": "^1.0",
+        "ixocreate/coding-standard": "^2.0",
         "php-coveralls/php-coveralls": "^2.1",
         "phpunit/phpunit": "^7.0"
     },
