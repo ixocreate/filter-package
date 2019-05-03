@@ -17,6 +17,9 @@ use PHPUnit\Framework\TestCase;
 
 class PackageTest extends TestCase
 {
+    /**
+     * @covers \Ixocreate\Filter\Package
+     */
     public function testPackage()
     {
         $configuratorRegistry = $this->getMockBuilder(ConfiguratorRegistryInterface::class)->getMock();
