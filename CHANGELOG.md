@@ -1,6 +1,8 @@
 # Release Notes
 
-## [Unreleased](https://github.com/ixocreate/filter-package/compare/0.1.0...develop)
+## [Unreleased](https://github.com/ixocreate/filter-package/compare/0.1.1...develop)
+
+## [v0.1.1 (2019-05-03)](https://github.com/ixocreate/filter-package/compare/0.1.0...0.1.1)
 ### Added
 - Compatibility with Application v0.2
 
