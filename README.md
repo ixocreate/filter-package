@@ -1,7 +1,7 @@
 # IXOCREATE Filter Package
 
 [![Build Status](https://travis-ci.com/ixocreate/filter-package.svg?branch=master)](https://travis-ci.com/ixocreate/filter-package)
-[![Coverage Status](https://coveralls.io/repos/github/ixocreate/filter-package/badge.svg?branch=develop)](https://coveralls.io/github/ixocreate/filter-package?branch=develop)
+[![Coverage Status](https://coveralls.io/repos/github/ixocreate/filter-package/badge.svg?branch=master)](https://coveralls.io/github/ixocreate/filter-package?branch=master)
 [![Packagist](https://img.shields.io/packagist/v/ixocreate/filter-package.svg)](https://packagist.org/packages/ixocreate/filter-package)
 [![PHP Version](https://img.shields.io/packagist/php-v/ixocreate/filter-package.svg)](https://packagist.org/packages/ixocreate/filter-package)
 [![License](https://img.shields.io/github/license/ixocreate/filter-package.svg)](LICENSE)
