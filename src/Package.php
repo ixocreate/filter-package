@@ -9,48 +9,16 @@ declare(strict_types=1);
 
 namespace Ixocreate\Filter;
 
-use Ixocreate\Application\Configurator\ConfiguratorRegistryInterface;
 use Ixocreate\Application\Package\PackageInterface;
-use Ixocreate\Application\Service\ServiceRegistryInterface;
-use Ixocreate\ServiceManager\ServiceManagerInterface;
 
 final class Package implements PackageInterface
 {
     /**
-     * @param ConfiguratorRegistryInterface $configuratorRegistry
+     * @return array
      */
-    public function configure(ConfiguratorRegistryInterface $configuratorRegistry): void
+    public function getBootstrapItems(): array
     {
-    }
-
-    /**
-     * @param ServiceRegistryInterface $serviceRegistry
-     */
-    public function addServices(ServiceRegistryInterface $serviceRegistry): void
-    {
-    }
-
-    /**
-     * @return array|null
-     */
-    public function getBootstrapItems(): ?array
-    {
-        return null;
-    }
-
-    /**
-     * @return array|null
-     */
-    public function getConfigProvider(): ?array
-    {
-        return null;
-    }
-
-    /**
-     * @param ServiceManagerInterface $serviceManager
-     */
-    public function boot(ServiceManagerInterface $serviceManager): void
-    {
+        return [];
     }
 
     /**
@@ -62,18 +30,10 @@ final class Package implements PackageInterface
     }
 
     /**
-     * @return null|string
+     * @return array
      */
-    public function getConfigDirectory(): ?string
+    public function getDependencies(): array
     {
-        return null;
-    }
-
-    /**
-     * @return array|null
-     */
-    public function getDependencies(): ?array
-    {
-        return null;
+        return [];
     }
 }
