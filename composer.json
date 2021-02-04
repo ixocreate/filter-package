@@ -11,6 +11,8 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^7.2 || ^8.0",
         "ixocreate/application": "dev-develop"
