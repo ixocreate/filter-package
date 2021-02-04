@@ -22,7 +22,7 @@ class FilterTest extends TestCase
 
     private $filterable;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->filter = new Filter();
         $this->filterable = $this->getMockBuilder(FilterableInterface::class)
